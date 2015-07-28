@@ -144,7 +144,7 @@ h2 {
   margin-top: 50px;
   margin-left: 6rem;
   font-size: 17px;
-  color: black;
+  color: $dkgrey;
   width: 338px;
   height: auto;
 }
@@ -153,6 +153,24 @@ h2 {
   margin-top: 50px;
   margin-left: 6rem;
   width: 300px;
+  color: $dkgrey;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.third-blurb {
+  margin-top: 50px;
+  margin-left: 6rem;
+  width: 450px;
+  color: $dkgrey;
 
   a {
     text-decoration: none;
@@ -372,11 +390,13 @@ h2 {
 .timeline-head {
   margin-top: 2rem;
   margin-left: 6rem;
+  color: $dkgrey;
 }
 
 .timeline {
   margin-top: 0.5rem;
   margin-left: 6rem;
+  box-shadow: 2px 2px 5px $dkgrey;
 }
 
 footer {

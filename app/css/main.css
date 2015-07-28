@@ -94,19 +94,32 @@ h2 {
   margin-top: 50px;
   margin-left: 6rem;
   font-size: 17px;
-  color: black;
+  color: #4c4c4c;
   width: 338px;
   height: auto; }
 
 .gitindex {
   margin-top: 50px;
   margin-left: 6rem;
-  width: 300px; }
+  width: 300px;
+  color: #4c4c4c; }
   .gitindex a {
     text-decoration: none;
     color: inherit;
     font-weight: bolder; }
   .gitindex a:hover {
+    text-decoration: underline; }
+
+.third-blurb {
+  margin-top: 50px;
+  margin-left: 6rem;
+  width: 450px;
+  color: #4c4c4c; }
+  .third-blurb a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder; }
+  .third-blurb a:hover {
     text-decoration: underline; }
 
 .side-links {
@@ -273,11 +286,13 @@ h2 {
 
 .timeline-head {
   margin-top: 2rem;
-  margin-left: 6rem; }
+  margin-left: 6rem;
+  color: #4c4c4c; }
 
 .timeline {
   margin-top: 0.5rem;
-  margin-left: 6rem; }
+  margin-left: 6rem;
+  box-shadow: 2px 2px 5px #4c4c4c; }
 
 footer {
   padding-top: 1.5rem;
