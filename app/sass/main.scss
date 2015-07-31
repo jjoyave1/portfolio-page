@@ -58,6 +58,7 @@ $opensans: 'Open Sans', sans-serif;
 body {
   background: url('../images/white_wall.png');
   background-repeat: repeat;
+  height: auto;
 }
 
 //
@@ -111,12 +112,14 @@ main{
 .top-layer {
   @include layer();
   @include top-layer;
+  height: 704px;
+  // overflow:hidden;
 
   section {
     width: 100%;
     background-image: url('../images/joej.png');
     background-repeat: no-repeat;
-    height: 122.5%;
+    height: 700px;
     opacity: 0.91;
     z-index: 5;
     overflow: hidden;
@@ -230,7 +233,7 @@ h2 {
   background-color: $cream;
   width: 215px;
   right: 180px;
-  top: 140px;
+  top: 115px;
   z-index: 20;
   border-radius: 6px;
   opacity: 0.92;
@@ -373,8 +376,6 @@ h2 {
     }
 
     .round:hover{
-
-
       img {
         display: none;
       }

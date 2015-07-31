@@ -19,7 +19,8 @@ html {
 
 body {
   background: url("../images/white_wall.png");
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  height: auto; }
 
 main {
   perspective: 0.65px;
@@ -67,12 +68,13 @@ main {
   right: 0;
   bottom: 0;
   left: 0;
-  transform: translateZ(-1px) scale(2.5); }
+  transform: translateZ(-1px) scale(2.5);
+  height: 704px; }
   .top-layer section {
     width: 100%;
     background-image: url("../images/joej.png");
     background-repeat: no-repeat;
-    height: 122.5%;
+    height: 700px;
     opacity: 0.91;
     z-index: 5;
     overflow: hidden;
@@ -159,7 +161,7 @@ h2 {
   background-color: #FDFCE9;
   width: 215px;
   right: 180px;
-  top: 140px;
+  top: 115px;
   z-index: 20;
   border-radius: 6px;
   opacity: 0.92;
