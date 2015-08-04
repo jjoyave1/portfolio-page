@@ -460,3 +460,7 @@ footer {
     color: $ltgrey;
   }
 }
+
+@include media(max-width: 1080px) {}
+@include media(max-width: 720px) {}
+@include media(max-width: 580px) {}
